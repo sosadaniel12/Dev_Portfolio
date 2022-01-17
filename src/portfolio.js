@@ -10,8 +10,7 @@ const about = {
   role: 'Full Stack Developer',
   description:
     'Well-qualified Full Stack Developer familiar with a wide range of programming utilities and languages. Knowledgeable of backend and frontend development requirements. Handles any part of the process with ease. Collaborative team player with excellent technical abilities.',
-  resume:
-    'https://docs.google.com/document/d/1c5QxO37uOoZKw-w4S7e0juFNFwHDhLNKHkFuAsdCHww/edit?usp=sharing',
+  resume: './resume.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/daniel-sosa-a940381b9/',
     github: 'https://github.com/sosadaniel12',
