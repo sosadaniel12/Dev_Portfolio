@@ -7,10 +7,11 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Daniel Sosa',
-  role: 'Full Stack Engineer',
+  role: 'Full Stack Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'Well-qualified Full Stack Developer familiar with a wide range of programming utilities and languages. Knowledgeable of backend and frontend development requirements. Handles any part of the process with ease. Collaborative team player with excellent technical abilities.',
+  resume:
+    'https://docs.google.com/document/d/1c5QxO37uOoZKw-w4S7e0juFNFwHDhLNKHkFuAsdCHww/edit?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/daniel-sosa-a940381b9/',
     github: 'https://github.com/sosadaniel12',
@@ -31,7 +32,7 @@ const projects = [
   {
     name: 'MERN E-Commerce',
     description:
-      'built and E-Commerce website with MERN stack. User can add products to cart and checkout.',
+      'An ECommerce site built with the MERN stack. Users can add products to cart and use Stripe for payment.',
     stack: ['GraphQL', 'MongoDB', 'React', 'Express'],
     sourceCode: 'https://github.com/sosadaniel12/MERN-E-Commerce',
     livePreview: 'https://salty-fortress-89051.herokuapp.com/',
