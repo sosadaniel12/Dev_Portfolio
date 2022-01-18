@@ -1,3 +1,8 @@
 .contact {
   flex-direction: column;
 }
+
+.email {
+  margin-bottom: 30px;
+  font-size: 1.1em;
+}

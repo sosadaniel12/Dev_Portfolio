@@ -6,7 +6,10 @@ import resumePdf from './devs_resume.pdf'
 
 const About = () => {
   const { name, role, description, resume, social } = about
-
+  const openInNewTab = (url) => {
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null
+  }
   return (
     <div className='about center'>
       {name && (
@@ -20,11 +23,11 @@ const About = () => {
 
       <div className='about__contact center'>
         {resume && (
-          <a href={resumePdf}>
+          <button type='button' onClick={() => openInNewTab(resumePdf)}>
             <span type='button' className='btn btn--outline'>
               Resume
             </span>
-          </a>
+          </button>
         )}
 
         {social && (
