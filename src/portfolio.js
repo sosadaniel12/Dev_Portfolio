@@ -26,7 +26,7 @@ const projects = [
       'User are to able to log in and chat with their friends around the world.',
     stack: ['CSS', 'MongoDB', 'React', 'Socket.io'],
     sourceCode: 'https://github.com/sosadaniel12/Splash_Chat_io',
-    livePreview: 'https://safe-stream-65170.herokuapp.com/',
+    livePreview: 'https://sheltered-earth-75176.herokuapp.com/',
   },
   {
     name: 'MERN E-Commerce',
